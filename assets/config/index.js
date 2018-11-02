@@ -1,0 +1,30 @@
+const menu =  [
+    {
+        name:'拓展资源',
+        path:'/home'
+    },
+    {
+        name:'App',
+        path:'/home/app'
+    },
+    {
+        name:'Android',
+        path:'/home/android'
+    },
+    {
+        name:'瞎推荐',
+        path:'/home/recommend'
+    },
+    {
+        name:'iOS',
+        path:'/home/ios'
+    },
+    {
+        name:'福利',
+        path:'/home/wellbeing'
+    },
+    {
+        name:'休息视频',
+        path:'/home/video'
+    }];
+export default menu;

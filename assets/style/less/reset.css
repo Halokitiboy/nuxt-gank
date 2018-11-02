@@ -1,0 +1,18 @@
+html,
+body {
+  height: 100%;
+}
+html .el-container,
+body .el-container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+html .main-section,
+body .main-section {
+  box-shadow: 0 0 5px 1px #ddd!important;
+}
+html .figure,
+body .figure {
+  display: inline-block;
+}
