@@ -1,5 +1,7 @@
 <template>
-  <div class="wrapper"/>
+  <div class="wrapper">
+    history
+  </div>
 </template>
 
 <script>

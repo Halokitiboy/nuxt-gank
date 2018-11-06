@@ -70,7 +70,7 @@ export default {
   watch: {},
   created() {},
   mounted() {
-      this.getItemData(this.pageIndex)
+      this.getItemData(this.pageIndex);
   },
   beforeDestory() {},
   methods: {

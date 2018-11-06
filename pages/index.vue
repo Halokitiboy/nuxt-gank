@@ -2,6 +2,7 @@
   <section class="container">
     <div>
       <logo/>
+      <span class="logo-txt">GANK</span>
     </div>
   </section>
 </template>
@@ -51,5 +52,23 @@ export default {
 
 .links {
   padding-top: 15px;
+}
+.logo-txt{
+    font-size: 120px;
+    display: inline-block;
+    padding: 0 0 0 30px;
+    position: relative;
+    left: 0;
+    animation: showTxt .5s linear;
+}
+@keyframes showTxt{
+    0%{
+        left: 100px;
+        opacity: 0;
+    }
+    100%{
+      left: 0;
+      opacity: 1;
+    }
 }
 </style>

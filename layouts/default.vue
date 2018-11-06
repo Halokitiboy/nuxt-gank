@@ -15,6 +15,10 @@ export default {
    },
    mounted() {
         //  this.getToday();
+        // window.scroll()
+        document.addEventListener("scroll",function(position){
+          console.log()
+        })
    },
    methods: {
      handleOpen(index,url){
@@ -23,6 +27,7 @@ export default {
      handleClose(index,url){
        console.log(index,url);
      },
+
      ...mapActions(['getToday'])
    },
 }

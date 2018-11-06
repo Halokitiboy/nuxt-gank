@@ -1,12 +1,27 @@
 html,
 body {
   height: 100%;
+  font-family: Quicksand, Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+  display: block;
+  font-weight: 300;
+  color: #35495e;
+  letter-spacing: 1px;
 }
 html .el-container,
 body .el-container {
   position: absolute;
   height: 100%;
   width: 100%;
+}
+html .el-main,
+body .el-main {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+html .el-main .wrapper main,
+body .el-main .wrapper main {
+  flex: 1;
 }
 html .main-section,
 body .main-section {
