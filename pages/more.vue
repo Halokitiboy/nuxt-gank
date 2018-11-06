@@ -34,25 +34,27 @@
             @current-change="handleCurrentChange"/>
         </div>
       </el-card>
-    
       <el-card v-else>
         <No-Data/>
       </el-card>
     </main>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import Header from '~/components/header'
 import NoData from '~/components/noData'
+import Footer from '~/components/footer'
 import Pic from '~/components/pic'
-import {dateTransform} from '~/assets/js/utils.js';
+import { dateTransform } from '~/assets/js/utils.js'
 export default {
   name: '',
   components: {
       Header,
       NoData,
-      Pic
+      Pic,
+      Footer
   },
   props: {},
   data() {
@@ -76,7 +78,6 @@ export default {
         this.name = this.$route.query.name;
         const data = await this.$axios.$get(`https://gank.io/api/search/query/listview/category/${this.name}/count/10/page/${pageIndex}`);
         // const data = await this.$axios.$get(`https://gank.io/api/data/${this.name}/10/${pageIndex}`);
-       
       if(data){ this.updated = true}
            
         console.log(this.updated)

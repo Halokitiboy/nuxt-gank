@@ -32,6 +32,7 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
+        box-shadow: 0 3px 10px #ddd;
         h2{
             font-size: 30px;
             height: 60px;

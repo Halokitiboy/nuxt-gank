@@ -1,17 +1,11 @@
 <template>
-  <div class="wrapper">
-    <Header/>
-    <main>闲读</main>
-    <Footer/>
-  </div>
+  <div class="wrapper"/>
 </template>
 
 <script>
-import Footer from '~/components/footer'
-import Header from '~/components/header'
 export default {
   name: '',
-  components: {Footer,Header},
+  components: {},
   props: {},
   data() {
     return {

@@ -2,7 +2,7 @@
   <div class="wrapper">
     <Header>
       <template slot="header">
-        <h2 class="text-center">今日份干货</h2>
+        <h2 class="text-center">{{ msg }}</h2>
       </template>
     </Header>
     <main>
@@ -56,7 +56,7 @@
         </el-card>
       </div>
     </main>
-    <template slot="header"/>
+    <Footer/>
   </div>
 </template>
 <script>
@@ -64,15 +64,17 @@ import {mapActions} from 'vuex'
 import {dateTransform} from '~/assets/js/utils.js';
 import menu from '~/assets/config';
 import Header from '~/components/header';
+import Footer from '~/components/footer';
 import jump from 'jump.js';
 export default {
   name: '',
-  components: {Header},
+  components: {Header,Footer},
   props: {},
   data() {
     return {
         menu: menu,
-        activeIndex:'1'
+        activeIndex:'1',
+        msg:'今日份干货'
     }
   },
   async asyncData({ app }) {
