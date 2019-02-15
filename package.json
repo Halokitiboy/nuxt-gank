@@ -1,0 +1,36 @@
+{
+  "name": "gank",
+  "version": "1.0.0",
+  "description": "My badass Nuxt.js project",
+  "author": "xiazhengchun",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "cross-env": "^5.2.0",
+    "element-ui": "^2.4.6",
+    "jump.js": "^1.0.2",
+    "localforage": "^1.7.3",
+    "nuxt": "^2.0.0",
+    "smoothscroll-polyfill": "^0.4.3",
+    "vue-preview": "^1.1.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^5.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^4.0.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "nodemon": "^1.11.0",
+    "push-dir": "^0.4.1"
+  }
+}
