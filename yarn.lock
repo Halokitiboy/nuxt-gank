@@ -1086,8 +1086,8 @@ async-each@^1.0.0:
   resolved "http://registry.npm.taobao.org/async-each/download/async-each-1.0.1.tgz#19d386a1d9edc6e7c1c85d388aedbcc56d33602d"
 
 async-limiter@~1.0.0:
-  version "1.0.0"
-  resolved "http://registry.npm.taobao.org/async-limiter/download/async-limiter-1.0.0.tgz#78faed8c3d074ab81f22b4e985d79e8738f720f8"
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/async-limiter/-/async-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
 
 async-validator@~1.8.1:
   version "1.8.5"
@@ -3627,6 +3627,10 @@ jsprim@^1.2.2:
     json-schema "0.2.3"
     verror "1.10.0"
 
+jump.js@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/jump.js/-/jump.js-1.0.2.tgz#e0641b47f40a38f2139c25fda0500bf28e43015a"
+
 kind-of@^3.0.2, kind-of@^3.0.3, kind-of@^3.2.0:
   version "3.2.2"
   resolved "http://registry.npm.taobao.org/kind-of/download/kind-of-3.2.2.tgz#31ea21a734bab9bbb0f32466d893aea51e4a3c64"
@@ -5310,6 +5314,12 @@ punycode@^2.1.0:
   version "2.1.1"
   resolved "http://registry.npm.taobao.org/punycode/download/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
 
+push-dir@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/push-dir/-/push-dir-0.4.1.tgz#29481eacd9c2106bbb7941db6d37d122a071ecb4"
+  dependencies:
+    minimist "^1.2.0"
+
 q@^1.1.2:
   version "1.5.1"
   resolved "http://registry.npm.taobao.org/q/download/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
@@ -6729,8 +6739,8 @@ write@^0.2.1:
     mkdirp "^0.5.1"
 
 ws@^6.0.0:
-  version "6.1.0"
-  resolved "http://registry.npm.taobao.org/ws/download/ws-6.1.0.tgz#119a9dbf92c54e190ec18d10e871d55c95cf9373"
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-6.2.2.tgz#dd5cdbd57a9979916097652d78f1cc5faea0c32e"
   dependencies:
     async-limiter "~1.0.0"
 
